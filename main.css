@@ -1814,8 +1814,20 @@ section,
   margin-bottom: 25px !important;
 }
 
+.service-item img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .portfolio-item img {
-  height: 250px; /* or any height you prefer */
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-item iframe {
+  height: 247px;
   width: 100%;
   object-fit: cover;
 }
